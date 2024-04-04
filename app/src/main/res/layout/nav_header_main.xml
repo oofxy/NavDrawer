@@ -1,0 +1,35 @@
+<!-- res/layout/nav_header_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#A19A97"
+    android:orientation="vertical">
+
+    <!-- Your profile picture or icon -->
+    <ImageView
+    android:layout_width="90dp"
+    android:layout_height="90dp"
+    android:layout_gravity="center"
+    android:src="@drawable/profile"/>
+
+    <!-- User name or other information -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Raymond Aaron Widjaja"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="oofxy11@gmail.com"
+        android:textColor="@android:color/white"
+        android:textSize="13sp" />
+</LinearLayout>
